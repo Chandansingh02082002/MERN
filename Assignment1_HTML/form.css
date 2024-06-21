@@ -1,0 +1,81 @@
+body {
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+
+#heading {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 60px;
+
+}
+
+#form {
+    display: block;
+    border: 2px solid white;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 40px;
+    box-shadow: 3px 3px 3px 6px whitesmoke;
+    width: 550px;
+    text-align: center;
+}
+
+#input {
+    border-radius: 4px;
+    width: 250px;
+    height: 25px;
+    border: 2px solid rgb(244, 239, 239);
+    box-shadow: 3px 3px 3px 6px whitesmoke;
+    background-color: whitesmoke;
+    color: black;
+
+}
+
+#btn1{
+    border-radius: 35px;
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bolder;
+    color: whitesmoke;
+    width: 300PX;
+    height: 45px;
+    cursor: pointer;
+    background-color: rgba(16, 185, 129, 1);
+}
+
+#btn2 {
+    border-radius: 35px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bolder;
+    width: 300PX;
+    height: 45px;
+    cursor: pointer;
+    background-color: rgba(25, 29, 35, 1);
+    color: white;
+}
+
+#txt {
+    margin-top: 25px;
+}
+
+#title1 {
+    color: rgba(75, 87, 104, 1);
+    margin-right: 185px;
+}
+
+#title2 {
+    color: rgba(75, 87, 104, 1);
+    margin-right: 205px;
+}
+
+#title3 {
+    color: rgba(75, 87, 104, 1);
+    margin-right: 185px;
+}
+
+#title4 {
+    color: rgba(75, 87, 104, 1);
+    margin-right: 150px;
+}
