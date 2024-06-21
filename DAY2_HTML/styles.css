@@ -1,0 +1,101 @@
+/* h4{
+    color: green;
+}
+
+#i1{
+    color : brown;
+}
+.html-grp{
+    color: blueviolet;
+}
+
+.h2.html-grp{
+    font-size: 24px;
+}
+.heading2,.html-grp{
+    text-decoration: underline;
+} */
+
+/* .root{
+    background-color: aquamarine;
+    padding : 12px;
+    margin: 12px;
+    border:2px solid black;
+    width: 200px;
+}
+.root2{
+    box-sizing: border-box;
+    background-color: aquamarine;
+    padding : 12px;
+    margin: 12px;
+    border:2px solid black;
+    width: 200px;
+} */
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ /* default font size in html is 16px */
+ /* div{
+    font-size: 20px ;
+    background-color: aquamarine;
+}
+p{
+    background-color: blanchedalmond;
+    font-size: 2em;
+    width: 10em;
+
+}  */
+
+/* div{
+    background-color: aquamarine;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+} */
+/* the above code of div does not work on inline content to use this you have to use display:block propety of css to make it first a box-content */
+/* .btn{
+    display: block;
+    background-color: red;
+    color: cornsilk;
+    text-align: center;
+    width: fit-content;
+    margin: 10px auto;
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+    border:none;
+}
+.big{
+    font-size: 19px;
+}
+.small{
+    font-size: 10px;
+} */
+ /* button{
+    background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+ } */
+/* the below code shows how a decendant selector is being used*/
+ /* div h3{
+    color: brown;
+ } */
+ /* the below code shows how a child selector is being used*/
+ /* div>h3{
+    color: brown;
+ }
+ ol>li>h3{
+    color: blue;
+ }
+ ol h3{
+    color: blue;
+ }
+ li h3{
+    color: blue;
+ } */
+
+ h3+li{
+    color: green;
+ }

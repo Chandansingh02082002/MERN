@@ -1,0 +1,31 @@
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    text-decoration: underline;
+    color: red;
+    background-color: aquamarine;
+    padding: 20px 2px;
+}
+.item1, .item2{
+    cursor: pointer;
+}
+
+.main{
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-auto-rows: 100px;
+    row-gap: 10px;
+    column-gap: 20px;
+    background-color: khaki;
+}  
+.a{
+    background-color: red;
+    display: flex;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.b{
+    background-color: violet;
+}

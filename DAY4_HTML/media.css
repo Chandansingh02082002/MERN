@@ -1,0 +1,33 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    background-color: aqua;
+    padding: 24px;
+}
+.child{
+    background-color: tan;
+    padding: 24px;
+}
+@media(width<=1000px)
+{
+    .parent{
+
+        background-color:cadetblue ;
+    }
+} */
+
+.container{
+height: 500px;
+background-color: yellow;
+margin: 100px;
+}
+.child{
+position: sticky;
+height: 40px;
+width: 40px;
+background-color: blueviolet;
+top: 50px;
+}

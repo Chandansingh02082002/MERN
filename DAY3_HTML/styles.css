@@ -1,0 +1,141 @@
+/* .btn{
+    border-radius: 25px;
+    margin-top: 40px;
+    font-weight: bolder;
+    color: whitesmoke;
+    width: 250PX;
+    height: 45px;
+    cursor: pointer;
+    background-color: rgba(16, 185, 129, 1);
+    transition: scale 300ms ease;
+    opacity: 0.7;
+    font-size: 20px;
+}
+.btn:hover{
+    opacity:1;
+    cursor: pointer;
+    scale: 1.04;
+    
+} */
+
+/* a:visited{
+    color: red;
+} */
+/*  
+ ul{
+    background-color: beige;
+ }
+
+ li:last-child{
+    color: red;
+ }
+ li:nth-child(2){
+    color: blue;
+ }
+ 
+ p:first-child{
+color:brown;
+} 
+li:first-of-type{
+    color: indianred;
+    }
+    ul p:first-of-type{
+        color: chartreuse;
+        }
+    */
+/* .login-btn{
+    text-decoration: underline;
+    color: lightgreen;
+} */
+
+/* .child{
+    border: 2px solid black;
+    background-color: orange;
+    flex-basis: 120px;
+    flex-shrink: 0;
+}
+
+.parent{
+    height: 300px;
+    background-color: aqua;
+    display: flex;
+    align-items:  center;
+    justify-content: space-evenly;
+}
+.search{
+     flex-grow: 1;
+    flex-shrink: 1; 
+    height: 175px;
+} */
+/* .child2{
+     flex-grow: 2; 
+} */
+
+/* .parent{
+    display: flex;
+    justify-content: flex-start;
+    height: 300px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: aquamarine;
+
+}
+
+.child{
+    background-color: aliceblue;
+    border: 1px solid grey;
+
+} */
+
+/* *{
+    padding: 0;
+    margin: 0;
+}
+.child{
+    background-color: aliceblue;
+    border: 1px solid grey;
+}
+.parent{
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(4,100px);
+  background-color: yellow;
+  grid-auto-rows: 100px;
+  row-gap: 10px;
+  column-gap: 20px;
+
+justify-content: center;
+justify-items: center;
+
+  align-content: center;
+  align-items: center;
+
+
+}
+
+
+.child2{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-start:2 ;
+} */
+.child1{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    left: 100px;
+    position: relative;
+}
+.child2{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
+.parent{
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+}
