@@ -12,12 +12,12 @@ const app = http.createServer(async (req,res)=>{
     const {query, pathname} = url.parse(req.url,true);
     switch(pathname){
         case "/":{
-            const bf  = await fsPromises.readFile("./pages/homepage.html");
+            const bf  = await fsPromises.readFile(`${__dirname}/pages/homepage.html`);
             res.end(bf);
             break;
         }
         case "/view":{
-            const bf  = await fsPromises.readFile(`${_dirname}/pages/view.html`);
+            const bf  = await fsPromises.readFile(`${__dirname}/pages/view.html`);
             let text = bf.toString();
             const product = data.find((ele)=>{
                 if(ele.id==query.id){
@@ -38,7 +38,7 @@ const app = http.createServer(async (req,res)=>{
             break;
         }
         case "/products":{
-            const bf  = await fsPromises.readFile("./pages/products.html");
+            const bf  = await fsPromises.readFile(`${__dirname}/pages/products.html`);
             let text = bf.toString();
             let productText = "";
             for(let i=0;i<data.length;i++){
