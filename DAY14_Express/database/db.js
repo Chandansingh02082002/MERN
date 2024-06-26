@@ -32,7 +32,7 @@ const client = new MongoClient(dbURL, {
 // run();
 
 const database = client.db(process.env.DB_NAME);
-const productsCollection = database.collections("products");
+const productsCollection = database.collection("products");
 
 module.exports={
     database, 
