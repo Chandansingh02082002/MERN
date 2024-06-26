@@ -71,9 +71,9 @@
 // console.log('end');
 
 
+//promise solve the main problem of callback hell by providing chaining.
 // const pr = fetch('https://api.github.com/users/Chandansingh02082002');
 // console.log(pr);
-
 // const cb1 = (e) =>{
 //     console.log('+fetch', e);
 //     e.json();

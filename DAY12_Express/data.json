@@ -1,0 +1,20 @@
+[
+    {
+        "title": "watch",
+        "description": "this is a wrist watch by titan",
+        "price": 2000,
+        "id": 0
+    },
+    {
+        "title": "watch",
+        "description": "this is a wrist watch by titan",
+        "price": 2000,
+        "id": 0
+    },
+    {
+        "title": "watch",
+        "description": "this is a wrist watch by titan",
+        "price": 2000,
+        "id": 1
+    }
+]
