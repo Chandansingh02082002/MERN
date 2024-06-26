@@ -3,18 +3,33 @@
 <style>
    body{
         padding:24px;
-        background: lime;
+        background: grey;
         height: 70vh;
         }
     nav{
     height: 10vh;
-    background-color: blue;
-    color: red;
+    background-color: rgba(0, 0, 0, 0.573);
+    
+    }
+    nav>div{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    nav>div>a{
+        color: red;
+    font-size: 35px;
+    text-decoration: none;
+    }
+    nav>div>h1{
+        color: white;
+    font-size: 35px;
+    text-decoration: none;
     }
     main{
         height: 70vh;
         padding: 25px;
-        background-color: rebeccapurple;
+        background-color: rgba(0, 0, 0, 0.23);
+        color:white;
     }
     footer{
         height: 10vh;
@@ -25,8 +40,9 @@
 <body>
     <nav>
         <div>
+            <h1>Product Mall</h1>
             <a href="#">Home</a>
-            <a href="#">About</a>
+            <a href="/products">Product</a>
             <a href="#">Contact</a>
         </div>
     </nav>
