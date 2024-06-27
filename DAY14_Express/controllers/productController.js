@@ -10,12 +10,16 @@ const getProduct =async (req,res)=>{
 const postProduct =  async(req, res)=>{
     const body = req.body;
     if(!body.title || !body.price){
-       res.status(400);
-       res.json({
-        status : "fail",
-        message : "Title and Price are not given"
-       });
-      return;
+      try{
+
+        res.status(400);
+        res.json({
+          status : "fail",
+          message : "Title and Price are not given"
+        });
+        return;
+      }catch(err){
+      console.log(err);
     }
     const result = await productsCollection.insertOne(body);
     res.json({
@@ -24,4 +28,5 @@ const postProduct =  async(req, res)=>{
         products:result,
       },
 })}
+}
     module.exports = {getProduct, postProduct};
