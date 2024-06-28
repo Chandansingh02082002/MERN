@@ -1,4 +1,5 @@
 require("dotenv").config();
+require("./database/db.js");
 const express = require("express");
 //to allow express to use body functions like req.body
 const app = express();
